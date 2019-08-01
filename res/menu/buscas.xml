@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/b_sisu"
+        android:orderInCategory="150"
+        android:title="@string/b_sisu" />
+
+    <item
+        android:id="@+id/b_cem"
+        android:orderInCategory="150"
+        android:title="@string/b_cem" />
+
+    <item
+        android:id="@+id/b_doc"
+        android:orderInCategory="150"
+        android:title="@string/b_doc" />
+
+    <item
+        android:id="@+id/b_pstv"
+        android:orderInCategory="150"
+        android:title="@string/b_pstv" />
+
+    <item
+        android:id="@+id/b_reopcao"
+        android:orderInCategory="150"
+        android:title="@string/b_reopcao" />
+
+    <item
+        android:id="@+id/b_ingresso"
+        android:orderInCategory="150"
+        android:title="@string/b_ingresso" />
+
+    <item
+        android:id="@+id/b_codesc"
+        android:orderInCategory="150"
+        android:title="@string/b_codesc" />
+</menu>

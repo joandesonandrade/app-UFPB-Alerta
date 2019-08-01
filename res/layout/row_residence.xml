@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/solid"
+    android:id="@+id/i_residence">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="titulo_residence"
+            android:textSize="20dp"
+            android:id="@+id/titulo_residence"
+            android:textColor="@color/totalpreto"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/data_residence"
+            android:textSize="11dp"
+            android:textColor="@color/totalcinza"
+            android:text="01/04/1998"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textSize="11dp"
+            android:id="@+id/descricao_residence"
+            android:textColor="@color/totalcinza"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/campus_residence"
+            android:textSize="11dp"
+            android:textColor="@color/totalpreto"
+            android:text="..."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preco_residence"
+            android:textSize="20dp"
+            android:textColor="@color/totalcinza"
+            android:text="..."
+            android:gravity="right"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

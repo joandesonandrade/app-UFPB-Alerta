@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/download"
+        android:orderInCategory="120"
+        android:title="Meus arquivos"
+        android:icon="@drawable/ic_abrir_arquivo_white"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/act_buscar"
+        android:orderInCategory="120"
+        android:title="Buscar"
+        android:icon="@drawable/ic_lupa"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/act_favorito"
+        android:orderInCategory="150"
+        android:title="Favoritos"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/act_eventos"
+        android:orderInCategory="150"
+        android:title="@string/title_eventos"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/act_shared"
+        android:orderInCategory="150"
+        android:title="Compartilhar"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/colaboradores"
+        android:orderInCategory="150"
+        android:title="Colaboradores"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/termos"
+        android:orderInCategory="150"
+        android:title="@string/termos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/act_sobre"
+        android:orderInCategory="150"
+        android:title="Sobre"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:background="@color/totalbranco"
+    android:id="@+id/i_noticia">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="titulo_noticia"
+            android:textSize="20dp"
+            android:id="@+id/titulo_noticia"
+            android:textColor="@color/totalpreto"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/data_noticia"
+            android:textSize="11dp"
+            android:textColor="@color/totalcinza"
+            android:text="01/04/1998"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textSize="11dp"
+            android:id="@+id/descricao_noticia"
+            android:textColor="@color/totalcinza"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:id="@+id/novo_noticia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"
+                android:text="@string/novo"
+                android:drawableLeft="@drawable/ic_new"
+                android:textColor="@color/totalbranco"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

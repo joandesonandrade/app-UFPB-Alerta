@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">UFPB Alerta</string>
+    <string name="title_files">Arquivos</string>
+    <string name="title_news">Notícias</string>
+    <string name="title_residence">Anúncios</string>
+    <string name="title_eventos">Eventos</string>
+    <string name="novo"> NOVO</string>
+    <string name="nome_arquivo">sisu</string>
+    <string name="termos">Termos e Privacidade</string>
+
+    <string name="b_sisu">SISU</string>
+    <string name="b_cem">CEM</string>
+    <string name="b_doc">DOC</string>
+    <string name="b_pstv">PSTV</string>
+    <string name="b_reopcao">REOPÇÃO</string>
+    <string name="b_ingresso">INGRESSO</string>
+    <string name="b_codesc">CODESC</string>
+
+    <string name="a1_sobre">Completamente projetado e desenvolvido por Joandeson Andrade, estudante de ciência da computação em Rio Tinto, UFPB campus IV.</string>
+    <string name="a2_sobre">O UFPB Alerta é um aplicativo pensado para facilitar a vida dos estudantes e os que desejam ingressar em um curso superior através do SISU, almejando obter os benefícios da Universidade Federal da Paraíba. Através deste, todos usuários ficaram informados acerca de inúmeros editais, bolsas de estudos, notícias, entre outras tantas ferramentas que a UFPB disponibiliza.</string>
+    <string name="a3_sobre">O UFPB Alerta foi desenvolvido com uma tecnologia de bot, semelhante com a da Google, o qual busca informações dentro do site oficial da UFPB, agregado de uma pequena inteligência artificial que toma decisões de relevância dos seus conteúdos, baixando e salvando todas as informações e arquivos de editais na nuvem, tudo totalmente criptografado com RSA.</string>
+    <string name="a4_sobre">Nomeado de JA.Bot, ele atua criando uma conexão legitima com o site da UFPB, simulando um ser humano acessando o site, com uma sequência de visitação a cada 1 hora evitando bloqueio e problemas entre os servidores de ambos.</string>
+    <string name="chamar">Quer conversar um pouco sobre o nosso app?</string>
+</resources>

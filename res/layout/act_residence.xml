@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:id="@+id/i_residence"
+    android:background="@color/totalbranco">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="titulo_residence"
+            android:textSize="20dp"
+            android:id="@+id/titulo_residence"
+            android:textColor="@color/totalpreto"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/data_residence"
+            android:textSize="11dp"
+            android:textColor="@color/totalcinza"
+            android:text="01/04/1998"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:textSize="11dp"
+            android:id="@+id/descricao_residence"
+            android:textColor="@color/totalcinza"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/campus_residence"
+            android:textSize="11dp"
+            android:textColor="@color/totalpreto"
+            android:text="..."/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preco_residence"
+            android:textSize="20dp"
+            android:textColor="@color/totalcinza"
+            android:text="..."
+            android:gravity="right"
+            android:layout_gravity="right"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/residence_whatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_comment"
+                android:text="CHAMAR NO WHATSAPP"
+                android:drawableLeft="@drawable/ic_whatsapp_logo_blue"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/colorPrimary"/>
+
+            <Button
+                android:id="@+id/residence_instagram"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_comment"
+                android:text="CHAMAR NO INSTAGRAM"
+                android:drawableLeft="@drawable/ic_instagram_blue"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

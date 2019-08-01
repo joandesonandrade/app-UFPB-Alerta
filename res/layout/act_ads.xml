@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joandeson.ufpbalerta.ads"
+    android:orientation="vertical"
+    android:background="@color/totalbranco">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/totalbranco">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@color/totalbranco">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/totalcinza"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:text="Fazemos com amor, e pelo o amor. Porém manter o app é caro. Ajude-nos, clique no anúncio! ❤"/>
+
+            <ImageView
+                android:id="@+id/ads_image"
+                android:layout_width="300dp"
+                android:layout_height="600dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ads_background"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/ads_fechar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_comment"
+                android:text="..."
+                android:drawableLeft="@drawable/ic_close"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

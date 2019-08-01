@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0452cf</color>
+    <color name="colorPrimaryDark">#0452cf</color>
+    <color name="colorAccent">#0452cf</color>
+    <color name="item">#272829</color>
+    <color name="totalpreto">#000</color>
+    <color name="totalbranco">#FFF</color>
+    <color name="totalcinza">#818181</color>
+    <color name="whatsapp">#25D366</color>
+    <color name="instagram">#515BD4</color>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/totalbranco"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Gostou do nosso app? vamos dar 5 estrelas a ele!"
+        android:textColor="@color/totalcinza"
+        android:textSize="18dp" />
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/totalbranco"
+    android:orientation="horizontal">
+
+    <Button
+        android:padding="50dp"
+        android:width="30dp"
+        android:height="30dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_star"
+        android:gravity="left"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:padding="50dp"
+        android:width="30dp"
+        android:height="30dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_star"
+        android:gravity="left"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:padding="50dp"
+        android:width="30dp"
+        android:height="30dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_star"
+        android:gravity="left"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:padding="50dp"
+        android:width="30dp"
+        android:height="30dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_star"
+        android:gravity="left"
+        android:layout_gravity="left"/>
+
+    <Button
+        android:padding="50dp"
+        android:width="30dp"
+        android:height="30dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_star"
+        android:gravity="left"
+        android:layout_gravity="left"/>
+
+</LinearLayout>
+</LinearLayout>
